@@ -8,12 +8,12 @@ namespace GF3
         public int radius;
         public Pen pen;
 
-        public Circle(Point point, int radius, SolidBrush brush, Pen pen) : base(point)
+        public Circle(Point point, int radius, Pen pen) : base(point)
         {
             this.radius = radius;
             this.pen = pen;
         }
-        public Circle(Point point, int radius, int brush, int pen, int width) : base(point)
+        public Circle(Point point, int radius, int pen, int width) : base(point)
         {
             this.radius = radius;
             this.pen = new Pen(Color.FromArgb(pen), width);

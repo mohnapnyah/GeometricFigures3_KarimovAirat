@@ -56,7 +56,7 @@ namespace GF3
                             figures.Add(new Triangle(new Point(data[1], data[2]), new Point(data[3], data[4]), new Point(data[5], data[6]), data[7], data[8]));
                             break;
                         case "Circle":
-                            figures.Add(new Circle(new Point(data[1], data[2]), data[3], data[4], data[5], data[6]));
+                            figures.Add(new Circle(new Point(data[1], data[2]), data[3], data[4], data[5]));
                             break;
                         case "Rectangle":
                             figures.Add(new Rectangle(new Point(data[1], data[2]), data[3], data[4], data[5], data[6]));

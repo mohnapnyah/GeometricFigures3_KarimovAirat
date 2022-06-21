@@ -50,7 +50,7 @@ namespace GF3
                         double katet1 = Math.Pow(bx - sx, 2);
                         double katet2 = Math.Pow(by - sy, 2);
                         int radius = (int)Math.Sqrt(katet1 + katet2);
-                        image.Add(new Circle(new Point(x1-radius, y1-radius), radius, new SolidBrush(brushColor), new Pen(penColor, ScrollB.Value)));
+                        image.Add(new Circle(new Point(x1-radius, y1-radius), radius, new Pen(penColor, ScrollB.Value)));
                         image.Draw(graphics);
                     }
                     break;
